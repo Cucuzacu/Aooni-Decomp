@@ -1,0 +1,44 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Skill",
+      "fields": {
+        "@animation1_id": 0,
+        "@int_f": 50,
+        "@icon_name": "045-Skill02",
+        "@eva_f": 0,
+        "@minus_state_set": [],
+        "@name": "aaa",
+        "@common_event_id": 0,
+        "@mdef_f": 100,
+        "@occasion": 0,
+        "@agi_f": 0,
+        "@plus_state_set": [],
+        "@atk_f": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "105-Heal01",
+              "@pitch": 100
+            }
+          }
+        },
+        "@pdef_f": 0,
+        "@scope": 3,
+        "@dex_f": 0,
+        "@power": -150,
+        "@element_set": [],
+        "@hit": 100,
+        "@animation2_id": 0,
+        "@description": "aaa",
+        "@str_f": 0,
+        "@id": 1,
+        "@sp_cost": 80,
+        "@variance": 15
+      }
+    }
+  }
+]

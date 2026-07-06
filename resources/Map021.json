@@ -1,0 +1,4609 @@
+{
+  "$object": {
+    "class": "RPG::Map",
+    "fields": {
+      "@bgm": {
+        "$object": {
+          "class": "RPG::AudioFile",
+          "fields": {
+            "@volume": 100,
+            "@name": "",
+            "@pitch": 100
+          }
+        }
+      },
+      "@tileset_id": 3,
+      "@events": {
+        "$hash": [
+          {
+            "key": 5,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 3,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 89,
+                                "@switch1_valid": true,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "move_toward_event(6)"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": true,
+                          "@move_frequency": 6,
+                          "@always_on_top": true,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "nezumi4",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV005",
+                  "@y": 9,
+                  "@x": 8,
+                  "@id": 5
+                }
+              }
+            }
+          },
+          {
+            "key": 6,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@move_type": 0,
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 1,
+                                "@switch1_valid": false,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@direction_fix": false,
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": false,
+                          "@move_frequency": 3,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@always_on_top": false,
+                          "@walk_anime": true,
+                          "@move_speed": 3,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV006",
+                  "@y": 9,
+                  "@x": 9,
+                  "@id": 6
+                }
+              }
+            }
+          },
+          {
+            "key": 1,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 0,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 1,
+                                "@switch1_valid": false,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": false,
+                          "@move_frequency": 6,
+                          "@always_on_top": false,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": false
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "青鬼",
+                  "@y": 0,
+                  "@x": 10,
+                  "@id": 1
+                }
+              }
+            }
+          },
+          {
+            "key": 2,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@move_type": 0,
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    49,
+                                    49,
+                                    1
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 121
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    -1,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    5
+                                                  ],
+                                                  "@code": 15
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    "ao_s1",
+                                                    0,
+                                                    2,
+                                                    0
+                                                  ],
+                                                  "@code": 41
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    1
+                                                  ],
+                                                  "@code": 15
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 1
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            5
+                                          ],
+                                          "@code": 15
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            "ao_s1",
+                                            0,
+                                            2,
+                                            0
+                                          ],
+                                          "@code": 41
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            1
+                                          ],
+                                          "@code": 15
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 210
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 242
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    4
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 19
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    4
+                                                  ],
+                                                  "@code": 15
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    0,
+                                                    0
+                                                  ],
+                                                  "@code": 14
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 19
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            4
+                                          ],
+                                          "@code": 15
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            0,
+                                            0
+                                          ],
+                                          "@code": 14
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    -1,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 19
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 19
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 210
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 104
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "\\f[jinbof]It's the Aooni!"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 101
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "It's coming right for us!!"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 401
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    4
+                                                  ],
+                                                  "@code": 15
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    "jinbo2",
+                                                    0,
+                                                    2,
+                                                    0
+                                                  ],
+                                                  "@code": 41
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            4
+                                          ],
+                                          "@code": 15
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            "jinbo2",
+                                            0,
+                                            2,
+                                            0
+                                          ],
+                                          "@code": 41
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 210
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    10
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    0,
+                                                    0
+                                                  ],
+                                                  "@code": 14
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            0,
+                                            0
+                                          ],
+                                          "@code": 14
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    1
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 207
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    "ao_s_dead",
+                                                    0,
+                                                    2,
+                                                    0
+                                                  ],
+                                                  "@code": 41
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            "ao_s_dead",
+                                            0,
+                                            2,
+                                            0
+                                          ],
+                                          "@code": 41
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    "ao_s_dead_p1",
+                                    1,
+                                    0,
+                                    320,
+                                    296,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    "ao_s_dead_p2",
+                                    1,
+                                    0,
+                                    288,
+                                    296,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3,
+                                    "ao_s_dead_p3",
+                                    1,
+                                    0,
+                                    304,
+                                    264,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    4,
+                                    "ao_s_dead_p4",
+                                    1,
+                                    0,
+                                    298,
+                                    296,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5,
+                                    "ao_s_dead_p5",
+                                    1,
+                                    0,
+                                    336,
+                                    288,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    6
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 233
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    -6
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 233
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3,
+                                    6
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 233
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    4,
+                                    -6
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 233
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3,
+                                    6
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 233
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    10,
+                                    0,
+                                    0,
+                                    700,
+                                    200,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 232
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    10,
+                                    0,
+                                    0,
+                                    -50,
+                                    230,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 232
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3,
+                                    10,
+                                    0,
+                                    0,
+                                    340,
+                                    -100,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 232
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    4,
+                                    10,
+                                    0,
+                                    0,
+                                    0,
+                                    -50,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 232
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5,
+                                    10,
+                                    0,
+                                    0,
+                                    260,
+                                    -50,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 232
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    30
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 235
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 235
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    3
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 235
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    89,
+                                    89,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 121
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    -1,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 16
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 16
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveRoute",
+                                        "fields": {
+                                          "@list": [
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 16
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [
+                                                    "jinbo",
+                                                    0,
+                                                    2,
+                                                    0
+                                                  ],
+                                                  "@code": 41
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "$object": {
+                                                "class": "RPG::MoveCommand",
+                                                "fields": {
+                                                  "@parameters": [],
+                                                  "@code": 0
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "@skippable": false,
+                                          "@repeat": false
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 209
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [],
+                                          "@code": 16
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::MoveCommand",
+                                        "fields": {
+                                          "@parameters": [
+                                            "jinbo",
+                                            0,
+                                            2,
+                                            0
+                                          ],
+                                          "@code": 41
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 509
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 210
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    10
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "\\f[jinbof]Hey boy, are you ok?"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 101
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "\\f[hirosif]\\name[\\N[2]]I'm saved!"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 101
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    15
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$object": {
+                                        "class": "RPG::AudioFile",
+                                        "fields": {
+                                          "@volume": 80,
+                                          "@name": "",
+                                          "@pitch": 100
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 245
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    7,
+                                    "black",
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    20
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 104
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "\\f[hirosif]\\name[\\N[2]]If there's one thing I \\_"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 101
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "learned from all this..."
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 401
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "\\f[hirosif]\\name[\\N[2]]It's that when you go to \\_"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 101
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "an empty mansion"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 401
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "on the outskirts of town that everyone says"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 401
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    "has monsters in it,\\nnothing good can ever come of it."
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 401
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    20
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 354
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 1,
+                                "@switch1_valid": false,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@direction_fix": false,
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 3,
+                          "@step_anime": false,
+                          "@move_frequency": 3,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "jinbo",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@always_on_top": false,
+                          "@walk_anime": true,
+                          "@move_speed": 3,
+                          "@through": false
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV002",
+                  "@y": 13,
+                  "@x": 10,
+                  "@id": 2
+                }
+              }
+            }
+          },
+          {
+            "key": 3,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 3,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 89,
+                                "@switch1_valid": true,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "move_toward_event(1)"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": true,
+                          "@move_frequency": 6,
+                          "@always_on_top": true,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "nezumi1",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV003",
+                  "@y": 8,
+                  "@x": 9,
+                  "@id": 3
+                }
+              }
+            }
+          },
+          {
+            "key": 4,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 3,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 89,
+                                "@switch1_valid": true,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "move_toward_event(1)"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": true,
+                          "@move_frequency": 6,
+                          "@always_on_top": true,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "nezumi4",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV004",
+                  "@y": 10,
+                  "@x": 11,
+                  "@id": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      "@bgs": {
+        "$object": {
+          "class": "RPG::AudioFile",
+          "fields": {
+            "@volume": 100,
+            "@name": "003-Wind03",
+            "@pitch": 100
+          }
+        }
+      },
+      "@autoplay_bgm": false,
+      "@data": {
+        "$userdata": {
+          "class": "Table",
+          "data": [
+            3,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            177,
+            3,
+            0,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            168,
+            0,
+            142,
+            0,
+            160,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            146,
+            0,
+            164,
+            0,
+            145,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            184,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            148,
+            0,
+            182,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            134,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            130,
+            0,
+            97,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            178,
+            0,
+            145,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            136,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            180,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            184,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            148,
+            0,
+            182,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            134,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            139,
+            0,
+            105,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            134,
+            0,
+            178,
+            0,
+            145,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            180,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            178,
+            0,
+            145,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            136,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            184,
+            0,
+            172,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            150,
+            0,
+            189,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            116,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            130,
+            0,
+            97,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            197,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            197,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "@autoplay_bgs": false,
+      "@height": 15,
+      "@encounter_step": 30,
+      "@width": 21,
+      "@encounter_list": []
+    }
+  }
+}

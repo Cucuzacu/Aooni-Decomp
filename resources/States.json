@@ -1,0 +1,38 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::State",
+      "fields": {
+        "@hit_rate": 100,
+        "@hold_turn": 0,
+        "@eva": 0,
+        "@name": "aaa",
+        "@zero_hp": true,
+        "@atk_rate": 100,
+        "@minus_state_set": [],
+        "@str_rate": 100,
+        "@battle_only": false,
+        "@slip_damage": false,
+        "@rating": 10,
+        "@nonresistance": false,
+        "@int_rate": 100,
+        "@plus_state_set": [],
+        "@maxsp_rate": 100,
+        "@shock_release_prob": 0,
+        "@cant_evade": false,
+        "@mdef_rate": 100,
+        "@restriction": 4,
+        "@agi_rate": 100,
+        "@guard_element_set": [],
+        "@maxhp_rate": 100,
+        "@auto_release_prob": 0,
+        "@id": 1,
+        "@pdef_rate": 100,
+        "@cant_get_exp": true,
+        "@dex_rate": 100,
+        "@animation_id": 0
+      }
+    }
+  }
+]

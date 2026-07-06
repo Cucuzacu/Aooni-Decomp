@@ -1,0 +1,1725 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "031-Key03",
+        "@name": "Library Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "The key to the library on the first floor",
+        "@id": 1,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Bedroom Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 2,
+        "@description": "The key to the bedroom on the 3rd floor",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Kid's Bedroom Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 3,
+        "@description": "The key to the Kid's Bedroom on the 2nd floor",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Phillips Head Screwdriver",
+        "@icon_name": "driver_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 15,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 4,
+        "@description": "Found it in the tub",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Basement Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 5,
+        "@description": "The key to the basement of the house",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "saraware_icon",
+        "@name": "Plate Shard",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 9,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A shard of a broken plate",
+        "@id": 6,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "doornob",
+        "@name": "Door Knob",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 16,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Found it in the Attic",
+        "@id": 7,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Lighter Fluid",
+        "@icon_name": "oil_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 5,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 8,
+        "@description": "A can of Lighter Fluid",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "jokoueki_icon",
+        "@name": "Soap",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 6,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Liquid Soap",
+        "@id": 9,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "hankati_icon",
+        "@name": "Handkerchief",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "It seems like it's Takeshi's",
+        "@id": 10,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Handkerchief",
+        "@icon_name": "hankati_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 8,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 11,
+        "@description": "It is covered in soap",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "lighter_icon",
+        "@name": "Lighter",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 4,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A refillable lighter that needs fluid.",
+        "@id": 12,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Phillips Head",
+        "@icon_name": "sin_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 23,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 13,
+        "@description": "Phillips Head",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Flat Head",
+        "@icon_name": "sin_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 23,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 14,
+        "@description": "Flat Head",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "driver_icon",
+        "@name": "Flat Head Screwdriver",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 24,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Flat Head Screwdriver",
+        "@id": 15,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "031-Key03",
+        "@name": "Basement Jail Cell Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Basement Jail Cell Key",
+        "@id": 16,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Annex Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 17,
+        "@description": "The key to the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Attic Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 18,
+        "@description": "The key to the Attic on the 3rd floor",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Entrance Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 19,
+        "@description": "Entrance Key",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Basement Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 20,
+        "@description": "The key to the basement of the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Picture Book",
+        "@icon_name": "icon_book",
+        "@minus_state_set": [],
+        "@common_event_id": 10,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 21,
+        "@description": "Found in the basement of the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Bookmark",
+        "@icon_name": "icon_siori",
+        "@minus_state_set": [],
+        "@common_event_id": 14,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 22,
+        "@description": "The bookmark that was inside the picture book",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Vinegar",
+        "@icon_name": "023-Potion03",
+        "@minus_state_set": [],
+        "@common_event_id": 27,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 23,
+        "@description": "Some cooking vinegar",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Disc",
+        "@icon_name": "enban_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 20,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 24,
+        "@description": "Found in the basement of the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Metal Stick",
+        "@icon_name": "bou_icon",
+        "@minus_state_set": [],
+        "@common_event_id": 21,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 25,
+        "@description": "Found in the basement of the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "031-Key03_red",
+        "@name": "Red Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 27,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A rusty red key",
+        "@id": 26,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "031-Key03",
+        "@name": "Iron Gate Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "The key to the iron gate in the basement of the annex",
+        "@id": 27,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "ningyou_icon",
+        "@name": "Doll",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 26,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A doll with one red eye",
+        "@id": 28,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "icon_ningyouatama",
+        "@name": "Doll Head",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 31,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A doll head with one red eye and one blue eye",
+        "@id": 29,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "redeye_icon",
+        "@name": "Red Stone",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 29,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Red Stone",
+        "@id": 30,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "blueeye_icon",
+        "@name": "Blue Stone",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 28,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Blue Stone",
+        "@id": 31,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "icon_denkyuu",
+        "@name": "Lightbulb",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 33,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Lightbulb",
+        "@id": 32,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "icon_key",
+        "@name": "Hidden Door Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "The key to the hidden door in the basement of the annex",
+        "@id": 33,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Backdoor Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 34,
+        "@description": "The key to the backdoor in the annex",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "031-Key03",
+        "@name": "Study Key",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 0,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "The key to the study on the 2nd floor",
+        "@id": 35,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Basement Key",
+        "@icon_name": "031-Key03",
+        "@minus_state_set": [],
+        "@common_event_id": 0,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 36,
+        "@description": "Basement Key",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "bou_icon",
+        "@name": "Stick",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 35,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "A long stick",
+        "@id": 37,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Die",
+        "@icon_name": "icon_sai",
+        "@minus_state_set": [],
+        "@common_event_id": 34,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 38,
+        "@description": "A die with six sides and dots on each side",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "nawa_icon",
+        "@name": "Rope Ladder",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 36,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Rope Ladder",
+        "@id": 39,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@consumable": false,
+        "@animation1_id": 0,
+        "@minus_state_set": [],
+        "@icon_name": "icon_piece1",
+        "@name": "Blue Piece",
+        "@mdef_f": 0,
+        "@recover_hp_rate": 0,
+        "@common_event_id": 37,
+        "@price": 0,
+        "@occasion": 0,
+        "@plus_state_set": [],
+        "@recover_sp": 0,
+        "@pdef_f": 0,
+        "@parameter_points": 0,
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@scope": 0,
+        "@element_set": [],
+        "@recover_sp_rate": 0,
+        "@hit": 100,
+        "@parameter_type": 0,
+        "@animation2_id": 0,
+        "@description": "Blue Piece",
+        "@id": 40,
+        "@variance": 0,
+        "@recover_hp": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Blue Piece",
+        "@icon_name": "icon_piece2",
+        "@minus_state_set": [],
+        "@common_event_id": 38,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 41,
+        "@description": "Blue Piece",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  },
+  {
+    "$object": {
+      "class": "RPG::Item",
+      "fields": {
+        "@animation1_id": 0,
+        "@consumable": false,
+        "@name": "Blue Piece",
+        "@icon_name": "icon_piece3",
+        "@minus_state_set": [],
+        "@common_event_id": 39,
+        "@recover_hp_rate": 0,
+        "@mdef_f": 0,
+        "@occasion": 0,
+        "@price": 0,
+        "@recover_sp": 0,
+        "@plus_state_set": [],
+        "@menu_se": {
+          "$object": {
+            "class": "RPG::AudioFile",
+            "fields": {
+              "@volume": 80,
+              "@name": "",
+              "@pitch": 100
+            }
+          }
+        },
+        "@parameter_points": 0,
+        "@pdef_f": 0,
+        "@scope": 0,
+        "@recover_sp_rate": 0,
+        "@element_set": [],
+        "@animation2_id": 0,
+        "@parameter_type": 0,
+        "@hit": 100,
+        "@id": 42,
+        "@description": "Blue Piece",
+        "@recover_hp": 0,
+        "@variance": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Enemy",
+      "fields": {
+        "@str": 999,
+        "@eva": 0,
+        "@animation1_id": 0,
+        "@name": "aaa",
+        "@mdef": 95,
+        "@gold": 16,
+        "@weapon_id": 0,
+        "@int": 41,
+        "@maxsp": 419,
+        "@treasure_prob": 100,
+        "@pdef": 95,
+        "@exp": 2,
+        "@agi": 41,
+        "@maxhp": 540,
+        "@armor_id": 0,
+        "@battler_hue": 0,
+        "@atk": 999,
+        "@state_ranks": {
+          "$userdata": {
+            "class": "Table",
+            "data": [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          }
+        },
+        "@dex": 999,
+        "@animation2_id": 0,
+        "@id": 1,
+        "@item_id": 0,
+        "@battler_name": "051-Undead01",
+        "@element_ranks": {
+          "$userdata": {
+            "class": "Table",
+            "data": [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          }
+        },
+        "@actions": [
+          {
+            "$object": {
+              "class": "RPG::Enemy::Action",
+              "fields": {
+                "@basic": 0,
+                "@condition_hp": 100,
+                "@rating": 5,
+                "@condition_turn_b": 1,
+                "@kind": 0,
+                "@condition_switch_id": 0,
+                "@condition_turn_a": 0,
+                "@skill_id": 7,
+                "@condition_level": 1
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Enemy::Action",
+              "fields": {
+                "@basic": 3,
+                "@condition_hp": 100,
+                "@rating": 4,
+                "@condition_turn_b": 1,
+                "@kind": 0,
+                "@condition_switch_id": 0,
+                "@condition_turn_a": 0,
+                "@skill_id": 1,
+                "@condition_level": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+]

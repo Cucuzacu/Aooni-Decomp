@@ -1,0 +1,3841 @@
+{
+  "$object": {
+    "class": "RPG::Map",
+    "fields": {
+      "@bgm": {
+        "$object": {
+          "class": "RPG::AudioFile",
+          "fields": {
+            "@volume": 100,
+            "@name": "",
+            "@pitch": 100
+          }
+        }
+      },
+      "@tileset_id": 3,
+      "@events": {
+        "$hash": [
+          {
+            "key": 1,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@move_type": 0,
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    7,
+                                    "black",
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    100,
+                                    100,
+                                    255,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 231
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    77,
+                                    21,
+                                    7,
+                                    2,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 201
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    {
+                                      "$userdata": {
+                                        "class": "Tone",
+                                        "data": [
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          64,
+                                          85,
+                                          192,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          64,
+                                          85,
+                                          192,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          64,
+                                          85,
+                                          192,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      }
+                                    },
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 223
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    9,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 236
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    7
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 235
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 1,
+                                "@switch1_valid": false,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@direction_fix": false,
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 1,
+                          "@step_anime": false,
+                          "@move_frequency": 3,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@always_on_top": false,
+                          "@walk_anime": true,
+                          "@move_speed": 3,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV001",
+                  "@y": 8,
+                  "@x": 3,
+                  "@id": 1
+                }
+              }
+            }
+          },
+          {
+            "key": 2,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 3,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 49,
+                                "@switch1_valid": true,
+                                "@variable_value": 16,
+                                "@self_switch_valid": false,
+                                "@variable_id": 5,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "@move_speed = 4.1"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "attack_on"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": true,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": false,
+                          "@move_frequency": 6,
+                          "@always_on_top": false,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "ao",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": false
+                        }
+                      }
+                    },
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 3,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": true,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 49,
+                                "@switch1_valid": true,
+                                "@variable_value": 16,
+                                "@self_switch_valid": false,
+                                "@variable_id": 5,
+                                "@variable_valid": false,
+                                "@switch2_id": 175
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "@move_speed = 4.1"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "attack_on"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 16
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 16
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          20
+                                        ],
+                                        "@code": 15
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "@move_speed = 7"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 10
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [
+                                          "@move_speed = 4.1"
+                                        ],
+                                        "@code": 45
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 12
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": true,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": false,
+                          "@move_frequency": 6,
+                          "@always_on_top": false,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "ao",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": false
+                        }
+                      }
+                    },
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@move_type": 0,
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 49,
+                                "@switch1_valid": true,
+                                "@variable_value": 1,
+                                "@self_switch_valid": false,
+                                "@variable_id": 25,
+                                "@variable_valid": true,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@direction_fix": false,
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 0,
+                          "@step_anime": false,
+                          "@move_frequency": 6,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@always_on_top": false,
+                          "@walk_anime": true,
+                          "@move_speed": 4,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "青",
+                  "@y": 0,
+                  "@x": 0,
+                  "@id": 2
+                }
+              }
+            }
+          },
+          {
+            "key": 3,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@move_type": 0,
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    5,
+                                    0,
+                                    29,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    0,
+                                    10,
+                                    10,
+                                    2
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 202
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 116
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1,
+                                    5,
+                                    0,
+                                    77,
+                                    0
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    30
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    0,
+                                    3,
+                                    7,
+                                    8
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 202
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5,
+                                    5,
+                                    0,
+                                    0,
+                                    29
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 122
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    12,
+                                    "$game_player.x == $game_map.events[2].x"
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    12,
+                                    "$game_player.y == $game_map.events[2].y"
+                                  ],
+                                  "@indent": 2,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5
+                                  ],
+                                  "@indent": 3,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1
+                                  ],
+                                  "@indent": 3,
+                                  "@code": 117
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 3,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 2,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 2,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 116
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    40
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    2,
+                                    0,
+                                    3,
+                                    7,
+                                    8
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 202
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5,
+                                    5,
+                                    0,
+                                    0,
+                                    29
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 122
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    12,
+                                    "$game_player.x == $game_map.events[2].x"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    12,
+                                    "$game_player.y == $game_map.events[2].y"
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    5
+                                  ],
+                                  "@indent": 2,
+                                  "@code": 106
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    1
+                                  ],
+                                  "@indent": 2,
+                                  "@code": 117
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 2,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 116
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 49,
+                                "@switch1_valid": true,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@direction_fix": false,
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 4,
+                          "@step_anime": false,
+                          "@move_frequency": 3,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@always_on_top": false,
+                          "@walk_anime": true,
+                          "@move_speed": 3,
+                          "@through": true
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV003",
+                  "@y": 1,
+                  "@x": 0,
+                  "@id": 3
+                }
+              }
+            }
+          },
+          {
+            "key": 4,
+            "value": {
+              "$object": {
+                "class": "RPG::Event",
+                "fields": {
+                  "@pages": [
+                    {
+                      "$object": {
+                        "class": "RPG::Event::Page",
+                        "fields": {
+                          "@list": [
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    12,
+                                    "$game_player.y == 19"
+                                  ],
+                                  "@indent": 0,
+                                  "@code": 111
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [
+                                    0,
+                                    30,
+                                    10,
+                                    0,
+                                    2,
+                                    0
+                                  ],
+                                  "@indent": 1,
+                                  "@code": 201
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 1,
+                                  "@code": 0
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 412
+                                }
+                              }
+                            },
+                            {
+                              "$object": {
+                                "class": "RPG::EventCommand",
+                                "fields": {
+                                  "@parameters": [],
+                                  "@indent": 0,
+                                  "@code": 0
+                                }
+                              }
+                            }
+                          ],
+                          "@move_type": 0,
+                          "@direction_fix": false,
+                          "@condition": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Condition",
+                              "fields": {
+                                "@switch2_valid": false,
+                                "@self_switch_ch": "A",
+                                "@switch1_id": 1,
+                                "@switch1_valid": false,
+                                "@variable_value": 0,
+                                "@self_switch_valid": false,
+                                "@variable_id": 1,
+                                "@variable_valid": false,
+                                "@switch2_id": 1
+                              }
+                            }
+                          },
+                          "@move_route": {
+                            "$object": {
+                              "class": "RPG::MoveRoute",
+                              "fields": {
+                                "@list": [
+                                  {
+                                    "$object": {
+                                      "class": "RPG::MoveCommand",
+                                      "fields": {
+                                        "@parameters": [],
+                                        "@code": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "@skippable": false,
+                                "@repeat": true
+                              }
+                            }
+                          },
+                          "@trigger": 4,
+                          "@step_anime": false,
+                          "@move_frequency": 3,
+                          "@always_on_top": false,
+                          "@graphic": {
+                            "$object": {
+                              "class": "RPG::Event::Page::Graphic",
+                              "fields": {
+                                "@opacity": 255,
+                                "@character_name": "",
+                                "@pattern": 0,
+                                "@tile_id": 0,
+                                "@direction": 2,
+                                "@blend_type": 0,
+                                "@character_hue": 0
+                              }
+                            }
+                          },
+                          "@walk_anime": true,
+                          "@move_speed": 3,
+                          "@through": false
+                        }
+                      }
+                    }
+                  ],
+                  "@name": "EV004",
+                  "@y": 1,
+                  "@x": 1,
+                  "@id": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      "@bgs": {
+        "$object": {
+          "class": "RPG::AudioFile",
+          "fields": {
+            "@volume": 100,
+            "@name": "006-Rain02",
+            "@pitch": 100
+          }
+        }
+      },
+      "@autoplay_bgm": false,
+      "@data": {
+        "$userdata": {
+          "class": "Table",
+          "data": [
+            3,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            176,
+            4,
+            0,
+            0,
+            80,
+            1,
+            104,
+            1,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            108,
+            1,
+            118,
+            1,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            116,
+            0,
+            116,
+            0,
+            97,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            124,
+            0,
+            124,
+            0,
+            124,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            124,
+            0,
+            134,
+            0,
+            178,
+            0,
+            164,
+            0,
+            180,
+            0,
+            136,
+            0,
+            124,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            134,
+            0,
+            178,
+            0,
+            164,
+            0,
+            145,
+            0,
+            144,
+            0,
+            146,
+            0,
+            164,
+            0,
+            180,
+            0,
+            136,
+            0,
+            124,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            178,
+            0,
+            145,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            164,
+            0,
+            180,
+            0,
+            136,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            180,
+            0,
+            136,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            180,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            184,
+            0,
+            172,
+            0,
+            172,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            116,
+            0,
+            116,
+            0,
+            132,
+            0,
+            184,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            184,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            136,
+            0,
+            104,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            146,
+            0,
+            180,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            184,
+            0,
+            152,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            98,
+            0,
+            132,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            100,
+            0,
+            134,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            178,
+            0,
+            145,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            120,
+            0,
+            160,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            144,
+            0,
+            168,
+            0,
+            112,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            96,
+            0,
+            0,
+            0,
+            0,
+            0,
+            148,
+            1,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            197,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            0,
+            0,
+            0,
+            0,
+            156,
+            1,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            154,
+            1,
+            155,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            154,
+            1,
+            155,
+            1,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            149,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            157,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            197,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            150,
+            1,
+            151,
+            1,
+            0,
+            0,
+            0,
+            0,
+            240,
+            1,
+            241,
+            1,
+            242,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            166,
+            1,
+            167,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            248,
+            1,
+            249,
+            1,
+            250,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            138,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            150,
+            1,
+            151,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            137,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            152,
+            1,
+            153,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            134,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            197,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            160,
+            1,
+            161,
+            1,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            1,
+            169,
+            1,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            176,
+            1,
+            177,
+            1,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            184,
+            1,
+            185,
+            1,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            1,
+            193,
+            1,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            230,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            246,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            254,
+            1,
+            0,
+            0,
+            162,
+            1,
+            163,
+            1,
+            164,
+            1,
+            165,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            170,
+            1,
+            171,
+            1,
+            172,
+            1,
+            173,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            178,
+            1,
+            179,
+            1,
+            180,
+            1,
+            181,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            186,
+            1,
+            187,
+            1,
+            188,
+            1,
+            189,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            194,
+            1,
+            195,
+            1,
+            196,
+            1,
+            197,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "@autoplay_bgs": true,
+      "@height": 20,
+      "@encounter_step": 30,
+      "@width": 20,
+      "@encounter_list": []
+    }
+  }
+}

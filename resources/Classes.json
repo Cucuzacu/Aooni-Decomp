@@ -1,0 +1,82 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Class",
+      "fields": {
+        "@name": "Middle School Student",
+        "@armor_set": [
+          1
+        ],
+        "@learnings": [],
+        "@weapon_set": [
+          1
+        ],
+        "@state_ranks": {
+          "$userdata": {
+            "class": "Table",
+            "data": [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          }
+        },
+        "@position": 0,
+        "@id": 1,
+        "@element_ranks": {
+          "$userdata": {
+            "class": "Table",
+            "data": [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+]

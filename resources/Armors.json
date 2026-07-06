@@ -1,0 +1,26 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Armor",
+      "fields": {
+        "@eva": 0,
+        "@int_plus": 0,
+        "@icon_name": "009-Shield01",
+        "@mdef": 20,
+        "@name": "aaa",
+        "@auto_state_id": 0,
+        "@price": 390,
+        "@agi_plus": 0,
+        "@pdef": 22,
+        "@guard_state_set": [],
+        "@kind": 0,
+        "@dex_plus": 0,
+        "@guard_element_set": [],
+        "@description": "aaa",
+        "@str_plus": 0,
+        "@id": 1
+      }
+    }
+  }
+]

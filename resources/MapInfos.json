@@ -1,0 +1,1220 @@
+{
+  "$hash": [
+    {
+      "key": 9,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "浴室前",
+            "@expanded": true,
+            "@order": 5,
+            "@scroll_y": 240,
+            "@parent_id": 4
+          }
+        }
+      }
+    },
+    {
+      "key": 47,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "別館２階",
+            "@expanded": false,
+            "@order": 35,
+            "@scroll_y": 272,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 28,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "トイレ",
+            "@expanded": false,
+            "@order": 7,
+            "@scroll_y": 240,
+            "@parent_id": 9
+          }
+        }
+      }
+    },
+    {
+      "key": 66,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 368,
+            "@name": "廊下",
+            "@expanded": false,
+            "@order": 64,
+            "@scroll_y": 240,
+            "@parent_id": 65
+          }
+        }
+      }
+    },
+    {
+      "key": 76,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "右上2",
+            "@expanded": false,
+            "@order": 61,
+            "@scroll_y": 240,
+            "@parent_id": 63
+          }
+        }
+      }
+    },
+    {
+      "key": 19,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "左　寝室",
+            "@expanded": false,
+            "@order": 20,
+            "@scroll_y": 240,
+            "@parent_id": 20
+          }
+        }
+      }
+    },
+    {
+      "key": 57,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "サイコロ部屋",
+            "@expanded": false,
+            "@order": 55,
+            "@scroll_y": 240,
+            "@parent_id": 49
+          }
+        }
+      }
+    },
+    {
+      "key": 38,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 464,
+            "@name": "バスタブ部屋",
+            "@expanded": true,
+            "@order": 49,
+            "@scroll_y": 416,
+            "@parent_id": 2
+          }
+        }
+      }
+    },
+    {
+      "key": 10,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "→",
+            "@expanded": true,
+            "@order": 8,
+            "@scroll_y": 240,
+            "@parent_id": 4
+          }
+        }
+      }
+    },
+    {
+      "key": 48,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "外２",
+            "@expanded": false,
+            "@order": 52,
+            "@scroll_y": 519,
+            "@parent_id": 34
+          }
+        }
+      }
+    },
+    {
+      "key": 29,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "外3",
+            "@expanded": true,
+            "@order": 67,
+            "@scroll_y": 320,
+            "@parent_id": 77
+          }
+        }
+      }
+    },
+    {
+      "key": 67,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "パズル道",
+            "@expanded": true,
+            "@order": 65,
+            "@scroll_y": 272,
+            "@parent_id": 65
+          }
+        }
+      }
+    },
+    {
+      "key": 20,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "3F",
+            "@expanded": false,
+            "@order": 19,
+            "@scroll_y": 288,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 58,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 336,
+            "@name": "教会",
+            "@expanded": false,
+            "@order": 56,
+            "@scroll_y": 352,
+            "@parent_id": 49
+          }
+        }
+      }
+    },
+    {
+      "key": 1,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 432,
+            "@name": "図書室",
+            "@expanded": false,
+            "@order": 9,
+            "@scroll_y": 400,
+            "@parent_id": 10
+          }
+        }
+      }
+    },
+    {
+      "key": 39,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 496,
+            "@name": "別館地下牢",
+            "@expanded": false,
+            "@order": 50,
+            "@scroll_y": 441,
+            "@parent_id": 38
+          }
+        }
+      }
+    },
+    {
+      "key": 77,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 400,
+            "@name": "階段",
+            "@expanded": true,
+            "@order": 66,
+            "@scroll_y": 240,
+            "@parent_id": 67
+          }
+        }
+      }
+    },
+    {
+      "key": 30,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "外4",
+            "@expanded": false,
+            "@order": 68,
+            "@scroll_y": 320,
+            "@parent_id": 29
+          }
+        }
+      }
+    },
+    {
+      "key": 68,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "動物園",
+            "@expanded": false,
+            "@order": 70,
+            "@scroll_y": 240,
+            "@parent_id": 44
+          }
+        }
+      }
+    },
+    {
+      "key": 11,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 302,
+            "@name": "台所",
+            "@expanded": false,
+            "@order": 10,
+            "@scroll_y": 304,
+            "@parent_id": 10
+          }
+        }
+      }
+    },
+    {
+      "key": 49,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 384,
+            "@name": "廃墟１F",
+            "@expanded": false,
+            "@order": 53,
+            "@scroll_y": 336,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 21,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 336,
+            "@name": "森の道",
+            "@expanded": false,
+            "@order": 3,
+            "@scroll_y": 240,
+            "@parent_id": 3
+          }
+        }
+      }
+    },
+    {
+      "key": 59,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "3階部屋",
+            "@expanded": false,
+            "@order": 39,
+            "@scroll_y": 240,
+            "@parent_id": 52
+          }
+        }
+      }
+    },
+    {
+      "key": 2,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 560,
+            "@name": "地下廊下１",
+            "@expanded": true,
+            "@order": 41,
+            "@scroll_y": 368,
+            "@parent_id": 23
+          }
+        }
+      }
+    },
+    {
+      "key": 40,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "地下廊下２",
+            "@expanded": true,
+            "@order": 43,
+            "@scroll_y": 416,
+            "@parent_id": 27
+          }
+        }
+      }
+    },
+    {
+      "key": 31,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "1F",
+            "@expanded": true,
+            "@order": 74,
+            "@scroll_y": 240,
+            "@parent_id": 33
+          }
+        }
+      }
+    },
+    {
+      "key": 69,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "タンス部屋",
+            "@expanded": false,
+            "@order": 45,
+            "@scroll_y": 240,
+            "@parent_id": 40
+          }
+        }
+      }
+    },
+    {
+      "key": 12,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "座敷牢",
+            "@expanded": false,
+            "@order": 14,
+            "@scroll_y": 240,
+            "@parent_id": 7
+          }
+        }
+      }
+    },
+    {
+      "key": 50,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "廃墟２F",
+            "@expanded": false,
+            "@order": 57,
+            "@scroll_y": 288,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 3,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 336,
+            "@name": "オープニング",
+            "@expanded": false,
+            "@order": 1,
+            "@scroll_y": 441,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 41,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "しん部屋",
+            "@expanded": false,
+            "@order": 23,
+            "@scroll_y": 240,
+            "@parent_id": 17
+          }
+        }
+      }
+    },
+    {
+      "key": 22,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "地下室２",
+            "@expanded": true,
+            "@order": 24,
+            "@scroll_y": 240,
+            "@parent_id": 17
+          }
+        }
+      }
+    },
+    {
+      "key": 60,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "パズル",
+            "@expanded": false,
+            "@order": 33,
+            "@scroll_y": 240,
+            "@parent_id": 53
+          }
+        }
+      }
+    },
+    {
+      "key": 32,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 464,
+            "@name": "ブレーカー室",
+            "@expanded": false,
+            "@order": 48,
+            "@scroll_y": 400,
+            "@parent_id": 2
+          }
+        }
+      }
+    },
+    {
+      "key": 70,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "洞窟１",
+            "@expanded": true,
+            "@order": 46,
+            "@scroll_y": 240,
+            "@parent_id": 27
+          }
+        }
+      }
+    },
+    {
+      "key": 13,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 302,
+            "@name": "2F",
+            "@expanded": false,
+            "@order": 15,
+            "@scroll_y": 272,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 51,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "タンス部屋",
+            "@expanded": false,
+            "@order": 54,
+            "@scroll_y": 256,
+            "@parent_id": 49
+          }
+        }
+      }
+    },
+    {
+      "key": 4,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "1F",
+            "@expanded": false,
+            "@order": 4,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 42,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "→",
+            "@expanded": true,
+            "@order": 29,
+            "@scroll_y": 240,
+            "@parent_id": 16
+          }
+        }
+      }
+    },
+    {
+      "key": 23,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "別館地下１",
+            "@expanded": false,
+            "@order": 40,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 61,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "左上",
+            "@expanded": false,
+            "@order": 58,
+            "@scroll_y": 240,
+            "@parent_id": 50
+          }
+        }
+      }
+    },
+    {
+      "key": 14,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "階段",
+            "@expanded": false,
+            "@order": 26,
+            "@scroll_y": 240,
+            "@parent_id": 22
+          }
+        }
+      }
+    },
+    {
+      "key": 52,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "別館３階",
+            "@expanded": false,
+            "@order": 38,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 33,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "エンディング",
+            "@expanded": true,
+            "@order": 73,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 71,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "洞窟２",
+            "@expanded": false,
+            "@order": 47,
+            "@scroll_y": 240,
+            "@parent_id": 70
+          }
+        }
+      }
+    },
+    {
+      "key": 43,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "卓郎部屋",
+            "@expanded": false,
+            "@order": 44,
+            "@scroll_y": 240,
+            "@parent_id": 40
+          }
+        }
+      }
+    },
+    {
+      "key": 24,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "寝室",
+            "@expanded": false,
+            "@order": 36,
+            "@scroll_y": 240,
+            "@parent_id": 47
+          }
+        }
+      }
+    },
+    {
+      "key": 62,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 416,
+            "@name": "左下",
+            "@expanded": false,
+            "@order": 59,
+            "@scroll_y": 288,
+            "@parent_id": 50
+          }
+        }
+      }
+    },
+    {
+      "key": 5,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "和室１",
+            "@expanded": true,
+            "@order": 12,
+            "@scroll_y": 288,
+            "@parent_id": 72
+          }
+        }
+      }
+    },
+    {
+      "key": 15,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "浴室",
+            "@expanded": false,
+            "@order": 6,
+            "@scroll_y": 240,
+            "@parent_id": 9
+          }
+        }
+      }
+    },
+    {
+      "key": 53,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 432,
+            "@name": "パズル部屋",
+            "@expanded": true,
+            "@order": 32,
+            "@scroll_y": 400,
+            "@parent_id": 46
+          }
+        }
+      }
+    },
+    {
+      "key": 34,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "別館１階から外へ",
+            "@expanded": false,
+            "@order": 51,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 72,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "↑",
+            "@expanded": true,
+            "@order": 11,
+            "@scroll_y": 240,
+            "@parent_id": 4
+          }
+        }
+      }
+    },
+    {
+      "key": 25,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "子供部屋",
+            "@expanded": false,
+            "@order": 17,
+            "@scroll_y": 240,
+            "@parent_id": 13
+          }
+        }
+      }
+    },
+    {
+      "key": 63,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "右上",
+            "@expanded": true,
+            "@order": 60,
+            "@scroll_y": 240,
+            "@parent_id": 50
+          }
+        }
+      }
+    },
+    {
+      "key": 6,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "タケシ",
+            "@expanded": false,
+            "@order": 16,
+            "@scroll_y": 240,
+            "@parent_id": 13
+          }
+        }
+      }
+    },
+    {
+      "key": 44,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 560,
+            "@name": "地下牢",
+            "@expanded": true,
+            "@order": 69,
+            "@scroll_y": 441,
+            "@parent_id": 65
+          }
+        }
+      }
+    },
+    {
+      "key": 54,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 432,
+            "@name": "人形部屋",
+            "@expanded": false,
+            "@order": 34,
+            "@scroll_y": 400,
+            "@parent_id": 46
+          }
+        }
+      }
+    },
+    {
+      "key": 35,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "おまけ",
+            "@expanded": false,
+            "@order": 76,
+            "@scroll_y": 240,
+            "@parent_id": 31
+          }
+        }
+      }
+    },
+    {
+      "key": 73,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "ベッド部屋",
+            "@expanded": false,
+            "@order": 71,
+            "@scroll_y": 240,
+            "@parent_id": 65
+          }
+        }
+      }
+    },
+    {
+      "key": 16,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "別館",
+            "@expanded": false,
+            "@order": 27,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 26,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "屋根裏部屋",
+            "@expanded": false,
+            "@order": 21,
+            "@scroll_y": 336,
+            "@parent_id": 20
+          }
+        }
+      }
+    },
+    {
+      "key": 64,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "右下",
+            "@expanded": false,
+            "@order": 62,
+            "@scroll_y": 240,
+            "@parent_id": 50
+          }
+        }
+      }
+    },
+    {
+      "key": 7,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 464,
+            "@name": "物置",
+            "@expanded": true,
+            "@order": 13,
+            "@scroll_y": 368,
+            "@parent_id": 5
+          }
+        }
+      }
+    },
+    {
+      "key": 45,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 432,
+            "@name": "物置",
+            "@expanded": false,
+            "@order": 28,
+            "@scroll_y": 416,
+            "@parent_id": 16
+          }
+        }
+      }
+    },
+    {
+      "key": 36,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 336,
+            "@name": "オープニング",
+            "@expanded": false,
+            "@order": 75,
+            "@scroll_y": 441,
+            "@parent_id": 31
+          }
+        }
+      }
+    },
+    {
+      "key": 55,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "日記部屋",
+            "@expanded": false,
+            "@order": 30,
+            "@scroll_y": 240,
+            "@parent_id": 42
+          }
+        }
+      }
+    },
+    {
+      "key": 74,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 464,
+            "@name": "右下",
+            "@expanded": false,
+            "@order": 72,
+            "@scroll_y": 416,
+            "@parent_id": 65
+          }
+        }
+      }
+    },
+    {
+      "key": 17,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "地下室",
+            "@expanded": false,
+            "@order": 22,
+            "@scroll_y": 384,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 27,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 448,
+            "@name": "地下室右",
+            "@expanded": true,
+            "@order": 42,
+            "@scroll_y": 400,
+            "@parent_id": 2
+          }
+        }
+      }
+    },
+    {
+      "key": 46,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "上",
+            "@expanded": true,
+            "@order": 31,
+            "@scroll_y": 240,
+            "@parent_id": 16
+          }
+        }
+      }
+    },
+    {
+      "key": 8,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "ピアノ",
+            "@expanded": false,
+            "@order": 18,
+            "@scroll_y": 240,
+            "@parent_id": 13
+          }
+        }
+      }
+    },
+    {
+      "key": 65,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "廃墟地階",
+            "@expanded": false,
+            "@order": 63,
+            "@scroll_y": 240,
+            "@parent_id": 0
+          }
+        }
+      }
+    },
+    {
+      "key": 56,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "食堂",
+            "@expanded": false,
+            "@order": 37,
+            "@scroll_y": 272,
+            "@parent_id": 47
+          }
+        }
+      }
+    },
+    {
+      "key": 18,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 448,
+            "@name": "地下牢",
+            "@expanded": false,
+            "@order": 25,
+            "@scroll_y": 352,
+            "@parent_id": 22
+          }
+        }
+      }
+    },
+    {
+      "key": 75,
+      "value": {
+        "$object": {
+          "class": "RPG::MapInfo",
+          "fields": {
+            "@scroll_x": 320,
+            "@name": "はじめ",
+            "@expanded": false,
+            "@order": 2,
+            "@scroll_y": 240,
+            "@parent_id": 3
+          }
+        }
+      }
+    }
+  ]
+}

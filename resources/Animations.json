@@ -1,0 +1,335 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Animation",
+      "fields": {
+        "@name": "aaa",
+        "@animation_name": "bang",
+        "@frames": [
+          {
+            "$object": {
+              "class": "RPG::Animation::Frame",
+              "fields": {
+                "@cell_max": 1,
+                "@cell_data": {
+                  "$userdata": {
+                    "class": "Table",
+                    "data": [
+                      2,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      200,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      255,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Animation::Frame",
+              "fields": {
+                "@cell_max": 1,
+                "@cell_data": {
+                  "$userdata": {
+                    "class": "Table",
+                    "data": [
+                      2,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      200,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      255,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Animation::Frame",
+              "fields": {
+                "@cell_max": 1,
+                "@cell_data": {
+                  "$userdata": {
+                    "class": "Table",
+                    "data": [
+                      2,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      4,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      200,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      255,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Animation::Frame",
+              "fields": {
+                "@cell_max": 1,
+                "@cell_data": {
+                  "$userdata": {
+                    "class": "Table",
+                    "data": [
+                      2,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      3,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      200,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      255,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Animation::Frame",
+              "fields": {
+                "@cell_max": 1,
+                "@cell_data": {
+                  "$userdata": {
+                    "class": "Table",
+                    "data": [
+                      2,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      8,
+                      0,
+                      0,
+                      0,
+                      2,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      200,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      255,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "@frame_max": 5,
+        "@position": 1,
+        "@id": 1,
+        "@timings": [
+          {
+            "$object": {
+              "class": "RPG::Animation::Timing",
+              "fields": {
+                "@flash_color": {
+                  "$userdata": {
+                    "class": "Color",
+                    "data": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      224,
+                      111,
+                      64,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      224,
+                      111,
+                      64,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      224,
+                      111,
+                      64,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      224,
+                      111,
+                      64
+                    ]
+                  }
+                },
+                "@condition": 0,
+                "@flash_scope": 0,
+                "@se": {
+                  "$object": {
+                    "class": "RPG::AudioFile",
+                    "fields": {
+                      "@volume": 100,
+                      "@name": "102-Attack14",
+                      "@pitch": 130
+                    }
+                  }
+                },
+                "@flash_duration": 5,
+                "@frame": 0
+              }
+            }
+          }
+        ],
+        "@animation_hue": 0
+      }
+    }
+  }
+]

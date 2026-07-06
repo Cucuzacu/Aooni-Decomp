@@ -1,0 +1,78 @@
+[
+  null,
+  {
+    "$object": {
+      "class": "RPG::Troop",
+      "fields": {
+        "@pages": [
+          {
+            "$object": {
+              "class": "RPG::Troop::Page",
+              "fields": {
+                "@list": [
+                  {
+                    "$object": {
+                      "class": "RPG::EventCommand",
+                      "fields": {
+                        "@parameters": [],
+                        "@indent": 0,
+                        "@code": 0
+                      }
+                    }
+                  }
+                ],
+                "@condition": {
+                  "$object": {
+                    "class": "RPG::Troop::Page::Condition",
+                    "fields": {
+                      "@actor_id": 1,
+                      "@turn_a": 0,
+                      "@turn_valid": false,
+                      "@enemy_hp": 50,
+                      "@switch_valid": false,
+                      "@switch_id": 1,
+                      "@enemy_index": 0,
+                      "@actor_valid": false,
+                      "@actor_hp": 50,
+                      "@turn_b": 0,
+                      "@enemy_valid": false
+                    }
+                  }
+                },
+                "@span": 0
+              }
+            }
+          }
+        ],
+        "@name": "aaa",
+        "@id": 1,
+        "@members": [
+          {
+            "$object": {
+              "class": "RPG::Troop::Member",
+              "fields": {
+                "@hidden": false,
+                "@y": 304,
+                "@enemy_id": 1,
+                "@x": 271,
+                "@immortal": false
+              }
+            }
+          },
+          {
+            "$object": {
+              "class": "RPG::Troop::Member",
+              "fields": {
+                "@hidden": false,
+                "@y": 304,
+                "@enemy_id": 1,
+                "@x": 369,
+                "@immortal": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+]
