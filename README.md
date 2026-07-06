@@ -9,7 +9,7 @@ Download the english version, then ope the exe with WinRAR.
 
 Extract the Audio folder and put it next to the Data folder in this repo. Then,get the Game.rgssad file and open it with RGSS-Extractor. Right click Graphics and cick Export.
 
-Put the graphichs folder(should be next to the RGSS-Extractor binary) next to the Data and Audio folders.
+Put the Graphics folder(should be next to the RGSS-Extractor binary) next to the Data and Audio folders.
 
 That's all!
 
