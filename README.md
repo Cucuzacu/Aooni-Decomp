@@ -5,9 +5,9 @@ Full decompilation of the awesome horror game Ao Oni.
 
 You need RGSS-Extractor(https://github.com/KatyushaScarlet/RGSS-Extractor) and the game(https://mygames888.info/aooni.html).
 
-Download the english version, then ope the exe with WinRAR.
+Download the english version, then open the exe with WinRAR.
 
-Extract the Audio folder and put it next to the Data folder in this repo. Then,get the Game.rgssad file and open it with RGSS-Extractor. Right click Graphics and cick Export.
+Extract the Audio folder and put it next to the Data folder in this repo. Then, get the Game.rgssad file and open it with RGSS-Extractor. Right click Graphics and cick Export.
 
 Put the Graphics folder(should be next to the RGSS-Extractor binary) next to the Data and Audio folders.
 
