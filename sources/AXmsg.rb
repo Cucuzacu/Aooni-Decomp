@@ -1,29 +1,29 @@
-# ▼▲▼ XRXS 9. メッセ表示フルグレ「追加制御文字」 ▼▲▼ built 192000
-# by 桜雅 在土    (\pass)
-#    和希, RaTTiE (\V, \e, \R)
+# ▼▲▼ XRXS 9. Message Display Full-Width/Half-Width "Additional Control Characters" ▼▲▼ built 192000
+# by Ouga Zaito    (\pass)
+#    Kazuki, RaTTiE (\V, \e, \R)
 
 #==============================================================================
-# □ カスタマイズポイント
+# □ Customization Points
 #==============================================================================
 class Window_Message < Window_Selectable
   #--------------------------------------------------------------------------
   # 外字
   #--------------------------------------------------------------------------
-  GAIJI_FILE          = "gaiji.png" # ピクチャファイル名
-  GAIJI_SIZE          =  24         # 外字一文字のサイズ
+  GAIJI_FILE          = "gaiji.png" # Picture file name
+  GAIJI_SIZE          =  24         # Size of a single user-defined character
 end
 #==============================================================================
 # ■ Interpreter
 #==============================================================================
 class Interpreter
   #--------------------------------------------------------------------------
-  # ○ 停止中を装う
+  # ○ Pretend to be stopped
   #--------------------------------------------------------------------------
   def pretend_stopping=(b)
     @pretend_stopping = b
   end
   #--------------------------------------------------------------------------
-  # ● 実行中判定
+  # ● Execution Status Check
   #--------------------------------------------------------------------------
   alias xrxs9_running? running?
   def running?
@@ -35,19 +35,19 @@ end
 #==============================================================================
 class Game_Player < Game_Character
   #--------------------------------------------------------------------------
-  # ● フレーム更新
+  # ● Frame update
   #--------------------------------------------------------------------------
   alias xrxs9_update update
   def update
-    # メッセージ中移動で無い場合
+    # If not moving within the message
     return xrxs9_update unless @messaging_moving
-    # 変更
+    # change
     last_showing = $game_temp.message_window_showing
     $game_system.map_interpreter.pretend_stopping = true
     $game_temp.message_window_showing = false
-    # 呼び戻す
+    # to call back
     xrxs9_update
-    # 復旧
+    # restoration
     $game_temp.message_window_showing = last_showing
     $game_system.map_interpreter.pretend_stopping = nil
   end
@@ -57,13 +57,13 @@ end
 #==============================================================================
 class Game_Event < Game_Character
   #--------------------------------------------------------------------------
-  # ● イベント起動
+  # ● Trigger Event
   #--------------------------------------------------------------------------
   alias xrxs9_start start
   def start
-    # 呼び戻す
+    # to call back
     xrxs9_start
-    # 実行された場合 かつ プレイヤーがメッセージ移動中の場合
+    # If executed AND the player is in the process of moving through a message...
     if @starting and $game_player.messaging_moving
       $game_player.messaging_moving = false
     end
@@ -72,8 +72,8 @@ end
 #------------------------------------------------------------------------------
 #
 #
-# ▽ 追加制御文字の描画機能 [独立]
-#     (by 和希, RaTTiE)
+# ▽ Additional Control Character Rendering Function [Standalone]
+#     (by Kazuki, RaTTiE)
 #
 #
 #==============================================================================
@@ -81,53 +81,53 @@ end
 #==============================================================================
 class Window_Message < Window_Selectable
   #--------------------------------------------------------------------------
-  # ○ 外字描画
-  #--------------------------------------------------------------------------
-  # x　　 ：ｘ座標
-  # y　　 ：ｙ座標
-  # num　 ：外字番号
-  # 返り値：外字幅(@x増加値)
+  # ○ External character rendering
+#--------------------------------------------------------------------------
+  # x     : X-coordinate
+  # y     : Y-coordinate
+  # num   : User-defined character number
+  # Return: User-defined character width (increment for @x)
   #--------------------------------------------------------------------------
   def draw_gaiji(x, y, num)
-    # 外字キャッシュが存在しない場合
+    # If the external character cache does not exist
     if @gaiji_cache == nil
-      # 外字データ読み込み
+      # Load user-defined character data
       if RPG_FileTest.picture_exist?(GAIJI_FILE)
         @gaiji_cache = RPG::Cache.picture(GAIJI_FILE)
       else
         return 0
       end
     end
-    # 指定した外字がキャッシュ範囲を超えている場合は何もしない
+    # If the specified user-defined character falls outside the cache range, do nothing.
     if @gaiji_cache.width < num * GAIJI_SIZE
       return 0
     end
-    # 文字サイズを取得
+    # Get font size
     size = GAIJI_SIZE
-    # 外字データをstretch_bltで転送
+    # Transfer user-defined character data using stretch_blt.
     self.contents.stretch_blt(Rect.new(x, y, size, size), @gaiji_cache, Rect.new(num * GAIJI_SIZE, 0, GAIJI_SIZE, GAIJI_SIZE))
-    # 文字描写のSEを演奏
+    # Playing sound effects for text descriptions
     if SOUNDNAME_ON_SPEAK != "" then
       Audio.se_play(SOUNDNAME_ON_SPEAK)
     end
-    # 文字サイズを返す
+    # Returns the font size.
     return size
   end
+#--------------------------------------------------------------------------
+  # ○ \V Conversion
   #--------------------------------------------------------------------------
-  # ○ \V変換
-  #--------------------------------------------------------------------------
-  # option ：オプション。無指定又は規定外の場合はindexのユーザ変数値を返す。
-  # index  ：インデックス
-  # 返り値 ：変換結果(アイコン表示用シーケンス込み)
+  # option : Option. If unspecified or invalid, returns the user variable value for the index.
+  # index  : Index
+  # Return : Conversion result (including icon display sequence)
   #--------------------------------------------------------------------------
   def convart_value(option, index)
-    # optionがnilの場合は""に直す(誤動作防止)
+    # Convert `option` to `""` if it is `nil` (to prevent malfunctions).
     option == nil ? option = "" : nil
 
-    # optionはdowncaseしておく。
+    # Convert the option to lowercase.
     option.downcase!
 
-    # \030はアイコン表示用のシーケンス。\030[アイコンファイル名]で定義。
+    # \030 is a sequence for displaying icons. It is defined as \030[icon filename].
     case option
     when "i"
       unless $data_items[index].name == nil
@@ -154,11 +154,11 @@ class Window_Message < Window_Selectable
   end
 end
 #==============================================================================
-# --- ルビ ---
+# --- ruby ---
 #==============================================================================
 class Window_Message < Window_Selectable
   #--------------------------------------------------------------------------
-  # ○ ルビ文字 の処理
+  # ○ Handling ruby ​​characters
   #--------------------------------------------------------------------------
   def process_ruby
     @now_text.sub!(/\[(.*?)\]/, "")
@@ -171,47 +171,47 @@ class Window_Message < Window_Selectable
   end
 end
 class Bitmap
+#--------------------------------------------------------------------------
+  # ○ Draw Ruby Text
   #--------------------------------------------------------------------------
-  # ○ ルビ文字描画
-  #--------------------------------------------------------------------------
-  # x      ：x座標
-  # y      ：y座標
-  # str　  ：描画文字列。本文,ルビの形式で入力。
-  # 　　　　 ,区切りが2つ以上あった場合は自動的に無視される。
-  # 返り値 ：文字幅(@x増加値)。
+  # x      : X-coordinate
+  # y      : Y-coordinate
+  # str    : String to draw. Input in the format "main_text,ruby_text".
+  #          If there are two or more delimiters, extras are automatically ignored.
+  # Return : Character width (increment for @x).
   #--------------------------------------------------------------------------
   def draw_ruby_text(x, y, w, h, str)
-    # フォントサイズをバックアップしておく
+    # Back up the font size
     sizeback = self.font.size
-    # ルビサイズの計算
+    # Calculating Ruby Size
     self.font.size * 3 / 2 > 32 ? rubysize = 32 - self.font.size : rubysize = self.font.size / 2
     rubysize = [rubysize, 6].max
     
-    # strをsplitで分割し、split_sに格納
+    # Split `str` and store the result in `split_s`.
     split_s = str.split(/,/)
-    # split_sがnilの場合は""にしておく(誤動作防止)
+    # Set split_s to "" if it is nil (to prevent malfunctions).
     split_s[0] = "" if split_s[0] == nil
     split_s[1] = "" if split_s[1] == nil
     
-    # heightとwidthを計算
+    # Calculate height and width.
     height = sizeback + rubysize
     width  = self.text_size(split_s[0]).width
 
-    # バッファ用の幅計算(ルビの幅が本文の幅を越える可能性がある為)
+    # Width calculation for the buffer (since the ruby ​​width may exceed the main text width)
     self.font.size = rubysize
     ruby_width = self.text_size(split_s[1]).width
     self.font.size = sizeback
 
     buf_width = [self.text_size(split_s[0]).width, ruby_width].max
 
-    # 本文の描画幅とルビの描画幅の差を1/2にして変数に格納(後で使用)
+    # Calculate half the difference between the rendering widths of the main text and the ruby, and store the result in a variable (for later use).
     width - ruby_width != 0 ? sub_x = (width - ruby_width) / 2 : sub_x = 0
 
-    # ルビの描画
+    # Ruby rendering
     self.font.size = rubysize
     self.draw_text(x + sub_x, 4 + y - self.font.size, self.text_size(split_s[1]).width, self.font.size, split_s[1])
     self.font.size = sizeback
-    # 本文の描画
+    # Rendering the body text
     self.draw_text(x, y, width, h, split_s[0])
     return width
   end
